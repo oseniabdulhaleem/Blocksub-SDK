@@ -5,7 +5,7 @@
  * IDL can be found at `target/idl/subscription_contract.json`.
  */
 export type SubscriptionContract = {
-  address: "BvuGGNocQNB8ybd6mYjy9HScPc3hf2bUWnQjVzbmDRCF";
+  address:string;
   metadata: {
     name: "subscriptionContract";
     version: "0.1.0";
