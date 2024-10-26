@@ -16,3 +16,4 @@ console.log("Is subscription active?", isActive);
 await sdk.extendSubscription(subscriptionAccountPubKey, 30, 500); // Extend by 30 days, pay 500 lamports more
 
 ```
+npm i blocksub 
