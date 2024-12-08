@@ -1,5 +1,5 @@
 {
-  "address": "BvuGGNocQNB8ybd6mYjy9HScPc3hf2bUWnQjVzbmDRCF",
+  "address": "5j1xSY5sZMgDS4feyzvaHzgr9JHHMERf5FWdp8CiorFy",
   "metadata": {
     "name": "subscription_contract",
     "version": "0.1.0",
@@ -9,7 +9,16 @@
   "instructions": [
     {
       "name": "check_subscription_status",
-      "discriminator": [6, 68, 105, 12, 88, 172, 114, 43],
+      "discriminator": [
+        6,
+        68,
+        105,
+        12,
+        88,
+        172,
+        114,
+        43
+      ],
       "accounts": [
         {
           "name": "subscription_account",
@@ -21,7 +30,16 @@
     },
     {
       "name": "subscribe",
-      "discriminator": [254, 28, 191, 138, 156, 179, 183, 53],
+      "discriminator": [
+        254,
+        28,
+        191,
+        138,
+        156,
+        179,
+        183,
+        53
+      ],
       "accounts": [
         {
           "name": "subscription_account",
@@ -57,7 +75,16 @@
   "accounts": [
     {
       "name": "SubscriptionAccount",
-      "discriminator": [247, 1, 6, 72, 172, 66, 24, 128]
+      "discriminator": [
+        247,
+        1,
+        6,
+        72,
+        172,
+        66,
+        24,
+        128
+      ]
     }
   ],
   "types": [

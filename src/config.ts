@@ -1,6 +1,6 @@
 import { PublicKey } from "@solana/web3.js";
 
-export const SOLANA_NETWORK = "https://api.devnet.solana.com"; // Change to mainnet-beta if necessary
+export const SOLANA_NETWORK = ""; // I used helius rpc url here . reach out for the key
 export const PROGRAM_ID = new PublicKey(
-  "BvuGGNocQNB8ybd6mYjy9HScPc3hf2bUWnQjVzbmDRCF"
+  "5j1xSY5sZMgDS4feyzvaHzgr9JHHMERf5FWdp8CiorFy"
 );
