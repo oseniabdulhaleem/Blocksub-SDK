@@ -3,7 +3,7 @@ import { Connection, PublicKey } from "@solana/web3.js";
 import { AnchorProvider, Program, Idl } from "@coral-xyz/anchor";
 import { WalletContextState } from "@solana/wallet-adapter-react";
 import { SubscriptionContract } from "./types/blocksub_contract";
-import idl from "./idl/blocksub_contract.json";
+import idl from "./idl/idl";
 
 export class BlockSubSDK {
   private connection: Connection;

@@ -1,4 +1,4 @@
-{
+export const IDL = {
   "address": "5j1xSY5sZMgDS4feyzvaHzgr9JHHMERf5FWdp8CiorFy",
   "metadata": {
     "name": "subscription_contract",
